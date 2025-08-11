@@ -1,0 +1,20 @@
+import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import EmailForm from "../components/EmailForm";
+import SaveForm from "../components/SaveForm";
+
+const Contact = () => {
+  return (
+    <div>
+      <Navbar />
+      <div className="main-container">
+        <h1 className="page-heading">RSVP</h1>
+        <SaveForm />
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default Contact;
