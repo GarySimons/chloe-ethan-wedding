@@ -25,10 +25,11 @@
   z-index: 1;
   width: 100%;
   max-width: 700px;
-  margin-bottom: 1rem;
+  margin: 1rem 0 -0.75rem 0;
 
   @media (min-width: 480px) {
     justify-content: flex-start;
+    margin: 0 0 -0.75rem 0;
   }
 }
 
@@ -46,25 +47,26 @@
   }
 
   .name {
-    font-family: "Prata", serif;
+    // font-family: "Prata", serif;
+    font-family: "Grandiflora One", serif;
     font-weight: 400;
-    font-size: 6.15rem;
+    font-size: 7.25rem;
     color: $main-red;
     z-index: 1;
 
     @media (min-width: 480px) {
-      font-size: 7.25rem;
+      font-size: 8.5rem;
     }
 
     &.and {
       color: $third-red;
-      margin: -9.5rem -3.5rem;
+      margin: -10.5rem -3.5rem;
       z-index: 0;
       font-size: 11rem;
       opacity: 0.5;
 
       @media (min-width: 480px) {
-        margin: -3rem -3.5rem -4rem -3.5rem;
+        margin: -4rem -3.5rem -4rem -3.5rem;
         font-size: 13rem;
       }
     }
@@ -138,7 +140,7 @@
   margin: 1rem 0 1rem 0;
   opacity: 0;
   animation: fadeIn 2s ease-in forwards;
-  animation-delay: 2s;
+  animation-delay: 2.25s;
 
   @media (min-width: 480px) {
     height: 7rem;
