@@ -13,7 +13,7 @@ const Details = () => {
           <p className="page-subtitle">The wedding of</p>
           <p className="page-subtitle bold">Chloe Earnshaw & Ethan Linton</p>
           <p className="page-text bold">Date</p>
-          <p className="page-text">Saturday 26 July 2026</p>
+          <p className="page-text">Saturday 27 September 2026</p>
           <p className="page-text bold">Location</p>
           <p className="page-text">
             South Stoke Barn, Arundel, West Sussex BN18 9PF
@@ -26,8 +26,8 @@ const Details = () => {
           <p className="page-text link">
             <Link to="/location">Directions</Link>
           </p>
-          <p className="page-text bold">Time</p>
-          <p className="page-text">13.00</p>
+          <p className="page-text bold">Ceremony</p>
+          <p className="page-text">14.00</p>
           <p className="page-text bold">Evening event</p>
           <p className="page-text">19:00</p>
           <p className="page-text bold">Carriages</p>

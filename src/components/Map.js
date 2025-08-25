@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 import pointer from "../assets/pointer.png";
 
@@ -176,8 +177,12 @@ const mapStyles = [
 ];
 
 const Map = () => {
+  const [mapLoaded, setMapLoaded] = useState(false);
   return (
-    <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
+    <LoadScript
+      googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}
+      onLoad={() => setMapLoaded(true)}
+    >
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
@@ -186,13 +191,15 @@ const Map = () => {
           styles: mapStyles,
         }}
       >
-        <Marker
-          position={center}
-          icon={{
-            url: { pointer },
-            scaledSize: new window.google.maps.Size(30, 40),
-          }}
-        />
+        {mapLoaded && (
+          <Marker
+            position={center}
+            icon={{
+              url: pointer,
+              scaledSize: new window.google.maps.Size(38, 50),
+            }}
+          />
+        )}
       </GoogleMap>
     </LoadScript>
   );
