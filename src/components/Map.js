@@ -1,5 +1,6 @@
 import React from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+import pointer from "../assets/pointer.png";
 
 const containerStyle = {
   width: "100%",
@@ -185,7 +186,13 @@ const Map = () => {
           styles: mapStyles,
         }}
       >
-        <Marker position={center} />
+        <Marker
+          position={center}
+          icon={{
+            url: { pointer },
+            scaledSize: new window.google.maps.Size(30, 40),
+          }}
+        />
       </GoogleMap>
     </LoadScript>
   );
