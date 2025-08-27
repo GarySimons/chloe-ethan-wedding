@@ -6,12 +6,12 @@ import pointer from "../assets/pointer.png";
 const containerStyle = {
   width: "100%",
   height: "500px",
-  margin: "1rem 0 0 0",
+  margin: "1rem 0 2rem 0",
 };
 
 const center = {
-  lat: 50.880158,
-  lng: -0.543511,
+  lat: 50.613852,
+  lng: -3.410473,
 };
 
 const mapStyles = [
