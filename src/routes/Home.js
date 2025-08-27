@@ -21,7 +21,7 @@ const Home = () => {
         <div className="home-date-container">
           <p className="home-date">27.09.26</p>
           <hr className="home-line" />
-          <p className="home-address">ARUNDEL, WEST SUSSEX</p>
+          <p className="home-address">EXMOUTH, DEVON</p>
         </div>
         <img src={scallopShell} alt="Scallop Shell" className="wax-image" />
       </div>
