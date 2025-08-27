@@ -1,0 +1,144 @@
+.contact-form {
+  width: 90vw;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+.contact-form input {
+  width: 100%;
+  padding: 1rem;
+  border: 0.1rem solid #ffffff;
+  background: none;
+  color: #000000;
+  font-size: 1rem;
+}
+.contact-form input:focus {
+  outline: none;
+}
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  min-height: 10rem;
+  border: 0.1rem solid #ffffff;
+  background: none;
+  color: #000000;
+  font-size: 1rem;
+}
+.contact-form textarea:focus {
+  outline: none;
+}
+.contact-form button {
+  width: 100%;
+  padding: 1rem;
+  background: #756c5f;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.contact-form button:hover {
+  opacity: 0.7;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 1rem 0;
+  gap: 1rem;
+}
+.radio-container .radio-question {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #692a32;
+}
+.radio-container .radio-question.save {
+  font-size: 1.35rem;
+}
+@media (min-width: 480px) {
+  .radio-container .radio-question.save {
+    font-size: 1.5rem;
+  }
+}
+.radio-container .radio-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.radio-container .radio-button-container .radio-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  position: relative;
+  cursor: pointer;
+}
+.radio-container .radio-button-container .radio-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.radio-container .radio-button-container .radio-text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.radio-container .radio-button-container .custom-radio {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #692a32;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  transition: all 0.2s ease;
+}
+.radio-container .radio-button-container .radio-input:checked + .custom-radio::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #692a32;
+}
+
+.succsess-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  max-width: 20rem;
+  padding: 1rem;
+  background-color: #692a32;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.succsess-message p {
+  color: #ffffff;
+}
+
+#message {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  color: #000000;
+}
+#message::-moz-placeholder {
+  color: #7d7c7b;
+  font-size: 1rem;
+}
+#message::placeholder {
+  color: #7d7c7b;
+  font-size: 1rem;
+}/*# sourceMappingURL=EmailFormStyles.css.map */

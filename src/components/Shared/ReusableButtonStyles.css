@@ -1,0 +1,24 @@
+.reusable-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #692a32;
+  color: white;
+  height: 2.5rem;
+  width: 40vw;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+@media (min-width: 480px) {
+  .reusable-button {
+    height: 3rem;
+    width: 12rem;
+    font-size: 1rem;
+  }
+}
+.reusable-button:hover {
+  background-color: #a65759;
+}/*# sourceMappingURL=ReusableButtonStyles.css.map */

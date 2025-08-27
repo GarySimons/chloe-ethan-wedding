@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import waxSeal from "../assets/wax-seal.png";
+import scallopShell from "../assets/scallop.png";
 import "./HomeStyles.scss";
 
 const Home = () => {
@@ -22,7 +23,7 @@ const Home = () => {
           <hr className="home-line" />
           <p className="home-address">ARUNDEL, WEST SUSSEX</p>
         </div>
-        <img src={waxSeal} alt="Wax Seal" className="wax-image" />
+        <img src={scallopShell} alt="Scallop Shell" className="wax-image" />
       </div>
 
       <Footer />
