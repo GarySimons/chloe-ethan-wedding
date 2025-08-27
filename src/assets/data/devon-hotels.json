@@ -1,0 +1,86 @@
+[
+  {
+    "name": "The Imperial Hotel",
+    "address": "Esplanade, Exmouth EX8 2SW",
+    "phone": "01395 274761",
+    "website": "https://www.hotelsone.com/exmouth-hotels-gb/the-imperial-hotel.html",
+    "websiteName": "www.hotelsone.com"
+  },
+  {
+    "name": "Manor Hotel",
+    "address": "The Beacon, Exmouth EX8 2AG",
+    "phone": "01395 272549",
+    "website": "https://manorexmouth.co.uk/",
+    "websiteName": "www.manorexmouth.co.uk"
+  },
+  {
+    "name": "Cavendish Hotel",
+    "address": "11 Morton Cres, Exmouth EX8 1BE",
+    "phone": "01395 272528",
+    "website": "https://www.alfatravel.co.uk/individual-hotel/?hotel_id=2159",
+    "websiteName": "www.alfatravel.co.uk"
+  },
+  {
+    "name": "Dolphin Hotel",
+    "address": "2 Morton Rd, Exmouth EX8 1AZ",
+    "phone": "01395 263832",
+    "website": "https://www.dolphinhotelexmouth.co.uk/",
+    "websiteName": "www.dolphinhotelexmouth.co.uk"
+  },
+  {
+    "name": "Devoncourt Resort",
+    "address": "16 Douglas Ave, Exmouth EX8 2EX",
+    "phone": "01395 272277",
+    "website": "https://www.devoncourt.com/",
+    "websiteName": "www.devoncourt.com"
+  },
+  {
+    "name": "Royal Beacon Hotel",
+    "address": "The Beacon, Exmouth EX8 2AF",
+    "phone": "0800 005 2244",
+    "website": "https://richardsonhotels.co.uk/royal-beacon-hotel/",
+    "websiteName": "www.richardsonhotels.co.uk"
+  },
+  {
+    "name": "Lympstone Manor Hotel",
+    "address": "Courtlands Ln, Exmouth EX8 3NZ",
+    "phone": "01395 202040",
+    "website": "https://lympstonemanor.co.uk/",
+    "websiteName": "www.lympstonemanor.co.uk"
+  },
+  {
+    "name": "The Beach House",
+    "address": "4 Foxholes Hill, Exmouth EX8 2DF",
+    "phone": "07887 882866",
+    "website": "https://www.thebeachhouseexmouth.co.uk/",
+    "websiteName": "www.thebeachhouseexmouth.co.uk"
+  },
+  {
+    "name": "Ash Hotel",
+    "address": "1 Mamhead View, Exmouth EX8 1DS",
+    "phone": "01395 224983",
+    "website": "https://ash-hotel-exmouth.barmouthbandb.com/",
+    "websiteName": "www.ash-hotel-exmouth.com"
+  },
+  {
+    "name": "Ashton Court",
+    "address": "5-6 Louisa Terrace, Exmouth EX8 2AQ",
+    "phone": "01395 263002",
+    "website": "https://www.ashtoncourthotel.co.uk/",
+    "websiteName": "www.ashtoncourthotel.co.uk"
+  },
+  {
+    "name": "Malindi",
+    "address": "4 Sunwine Pl, Exmouth EX8 2SE",
+    "phone": "01395 276629",
+    "website": "https://malindiexmouth.co.uk/",
+    "websiteName": "www.malindiexmouth.co.uk"
+  },
+  {
+    "name": "The Driftwood Inn",
+    "address": "The Strand, Starcross, Exeter EX6 8PR",
+    "phone": "01626 923423",
+    "website": "https://thedriftwoodinn.co.uk/",
+    "websiteName": "www.thedriftwoodinn.co.uk"
+  }
+]

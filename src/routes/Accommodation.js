@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import hotelsData from "../assets/data/hotels.json";
+import hotelsData from "../assets/data/devon-hotels.json";
 
 const Accommodation = () => {
   const [hotels, setHotels] = useState([]);

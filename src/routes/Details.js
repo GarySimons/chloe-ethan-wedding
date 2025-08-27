@@ -16,11 +16,11 @@ const Details = () => {
           <p className="page-text">Saturday 27 September 2026</p>
           <p className="page-text bold">Location</p>
           <p className="page-text">
-            South Stoke Barn, Arundel, West Sussex BN18 9PF
+            Ocean, Queens Drive, Exmouth, Devon EX8 2AY
           </p>
           <p className="page-text link">
-            <a href="https://www.southstokebarn.co.uk/" target="_blank">
-              www.southstokebarn.co.uk
+            <a href="https://www.oceanweddings.co.uk/" target="_blank">
+              www.oceanweddings.co.uk
             </a>
           </p>
           <p className="page-text link">
