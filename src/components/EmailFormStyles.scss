@@ -15,7 +15,7 @@
   input {
     width: 100%;
     padding: 1rem;
-    border: 0.1rem solid #ffffff;
+    border: 0.1rem solid $second-red;
     background: none;
     color: #000000;
     font-size: 1rem;
@@ -29,7 +29,7 @@
     width: 100%;
     padding: 1rem;
     min-height: 10rem;
-    border: 0.1rem solid #ffffff;
+    border: 0.1rem solid $second-red;
     background: none;
     color: #000000;
     font-size: 1rem;
@@ -42,7 +42,7 @@
   button {
     width: 100%;
     padding: 1rem;
-    background: $second-red;
+    background: $main-red;
     color: #ffffff;
     border: none;
     cursor: pointer;

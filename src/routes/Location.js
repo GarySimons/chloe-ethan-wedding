@@ -13,7 +13,9 @@ const Location = () => {
           Ocean, Queens Drive, Exmouth, Devon EX8 2AY
         </p>
         <p className="page-text bold-link">
-          <a href="https://www.oceanweddings.co.uk/">www.oceanweddings.co.uk</a>
+          <a href="https://www.oceanweddings.co.uk/" target="_blank">
+            www.oceanweddings.co.uk
+          </a>
         </p>
         <Map />
         <p className="page-text bold">Public Transport</p>

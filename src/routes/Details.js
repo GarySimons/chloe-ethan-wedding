@@ -13,7 +13,7 @@ const Details = () => {
           <p className="page-subtitle">The wedding of</p>
           <p className="page-subtitle bold">Chloe Earnshaw & Ethan Linton</p>
           <p className="page-text bold">Date</p>
-          <p className="page-text">Saturday 27 September 2026</p>
+          <p className="page-text">Saturday 25 July 2026</p>
           <p className="page-text bold">Location</p>
           <p className="page-text">
             Ocean, Queens Drive, Exmouth, Devon EX8 2AY

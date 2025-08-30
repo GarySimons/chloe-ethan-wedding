@@ -19,7 +19,7 @@ const Home = () => {
           <h1 className="name dylan">Ethan</h1>
         </div>
         <div className="home-date-container">
-          <p className="home-date">27.09.26</p>
+          <p className="home-date">25.07.26</p>
           <hr className="home-line" />
           <p className="home-address">EXMOUTH, DEVON</p>
         </div>
