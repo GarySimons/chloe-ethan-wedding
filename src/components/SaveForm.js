@@ -116,7 +116,7 @@ const SaveForm = () => {
             type="text"
             id="name"
             name="name"
-            placeholder="Name(s) of guest(s"
+            placeholder="Name(s) of guest(s)"
             value={formData.name}
             onChange={handleInputChange}
             required
