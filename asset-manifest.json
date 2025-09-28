@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/chloe-ethan-wedding/static/css/main.30650e42.css",
-    "main.js": "/chloe-ethan-wedding/static/js/main.31185925.js",
+    "main.js": "/chloe-ethan-wedding/static/js/main.1b151074.js",
     "static/media/wax-seal.png": "/chloe-ethan-wedding/static/media/wax-seal.458d98c78920b99cecbd.png",
     "static/media/scallop.png": "/chloe-ethan-wedding/static/media/scallop.50b1ad2cc1bb564572aa.png",
     "index.html": "/chloe-ethan-wedding/index.html",
     "main.30650e42.css.map": "/chloe-ethan-wedding/static/css/main.30650e42.css.map",
-    "main.31185925.js.map": "/chloe-ethan-wedding/static/js/main.31185925.js.map"
+    "main.1b151074.js.map": "/chloe-ethan-wedding/static/js/main.1b151074.js.map"
   },
   "entrypoints": [
     "static/css/main.30650e42.css",
-    "static/js/main.31185925.js"
+    "static/js/main.1b151074.js"
   ]
 }
